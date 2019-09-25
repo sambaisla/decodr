@@ -1,8 +1,8 @@
 <?php 
 
 
-$ToEmail = 'vinay99004162081612@gmail.com'; 
-$EmailSubject = 'Site contact form'; 
+$ToEmail = 'hello@decodr.in'; 
+$EmailSubject = 'Form submission'; 
 $mailheader = "From: ".$_POST["email"]."\r\n"; 
 $mailheader .= "Reply-To: ".$_POST["email"]."\r\n"; 
 $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
